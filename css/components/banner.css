@@ -1,0 +1,27 @@
+.banner {
+  background-color: #faf5fa;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.banner img {
+  height: 350px;
+  margin-left: 240px;
+}
+
+.banner-text {
+  color: #524f52;
+  margin-left: 160px;
+}
+
+.banner-text h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+}
+
+.banner-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}

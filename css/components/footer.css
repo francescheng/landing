@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  background-color: #918e91;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.footer img {
+  height: 200px;
+  margin-left: 40px;
+}
+
+.footer-text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 160px;
+}

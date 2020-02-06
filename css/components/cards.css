@@ -1,0 +1,50 @@
+.container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0, auto;
+}
+
+.card-trip {
+  position: relative;
+  width: 400px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-trip img {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.card-trip-profile img {
+  object-fit: cover;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.card-trip-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.card-trip-info h2 {
+  font-size: 16px;
+}
+
+.card-trip-info p {
+  font-size: 12px;
+}

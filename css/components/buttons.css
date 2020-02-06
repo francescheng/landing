@@ -1,0 +1,46 @@
+
+.btn-medium {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999999;
+  border-radius: 40px;
+  color: #999999;
+  opacity: 0.6;
+  padding: 12px 24px;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-treehouse {
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+  background-color: #47C163;
+  opacity: 0.6;
+  transition: 0.3s;
+  padding: 16px 32px;
+  font-weight: bold;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+}
+
+.btn-yours {
+  margin: 16px;
+  display: inline-block;
+  color: #4a4949;
+  font-weight: bold;
+  padding: 16px 32px;
+  background: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #FFFFFF, 3px 3px 5px rgba(207, 204, 204, 0.9);
+}
+
+.btn-yours:hover {
+  box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(207, 204, 204, 1);
+}
+
